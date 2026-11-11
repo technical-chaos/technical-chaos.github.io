@@ -9,6 +9,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Technical Chaos',
+			logo: { src: './src/assets/logo.png', alt: 'Technical Chaos logo' },
+			favicon: '/favicon.png',
 			description: 'Notes from running a homelab with AI agents, Terraform and Ansible.',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/technical-chaos' }],
 			// Fails the build on a broken internal link.
