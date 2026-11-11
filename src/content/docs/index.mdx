@@ -1,0 +1,38 @@
+---
+title: Technical Chaos
+description: Notes from running a homelab with AI agents, Terraform and Ansible.
+template: splash
+hero:
+  tagline: Notes from running a homelab with AI agents, Terraform and Ansible, including the parts that broke.
+  actions:
+    - text: Homelab automation
+      link: /homelab-automation/
+      icon: right-arrow
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Guides
+
+<CardGrid>
+	<LinkCard
+		title="OPNsense, VLANs and IPS (SE1-EP2)"
+		description="Isolate smart-home devices with VLANs, write firewall rules, and make Suricata IPS actually block. Step by step, VM or physical."
+		href="/video-guides/se1-ep2-opnsense-vlans/"
+	/>
+	<LinkCard
+		title="Homelab automation"
+		description="AI agents write the changes, Semaphore runs them, a person approves. Terraform state in PostgreSQL, Ansible for the hosts."
+		href="/homelab-automation/"
+	/>
+	<LinkCard
+		title="Adding a node"
+		description="From a Terraform entry to a configured host, with a real run before every merge."
+		href="/homelab-automation/adding-a-node/"
+	/>
+	<LinkCard
+		title="Troubleshooting"
+		description="Every error hit during the setup, with its cause and fix."
+		href="/homelab-automation/troubleshooting/"
+	/>
+</CardGrid>
