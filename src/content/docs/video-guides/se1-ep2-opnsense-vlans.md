@@ -20,6 +20,15 @@ The demo runs OPNsense **in a virtual machine on Proxmox**, so it can be broken 
 All addresses, VLAN IDs and names below are the **lab values from the video**. Use your own ranges on a real network.
 :::
 
+## Tools used
+
+| Tool | What it's for |
+| --- | --- |
+| [OPNsense](https://opnsense.org/download/) | The firewall: VLANs, DHCP, firewall rules and IPS |
+| [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview) | Runs OPNsense as a VM in the demo (optional on a physical firewall) |
+| [Suricata](https://docs.opnsense.org/manual/ips.html) | The intrusion detection and prevention built into OPNsense |
+| A managed switch | Carries the VLANs to your devices (any switch with 802.1Q VLAN support) |
+
 ## What you'll build
 
 ```text

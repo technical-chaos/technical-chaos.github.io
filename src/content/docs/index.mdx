@@ -8,34 +8,28 @@ hero:
     file: ../../assets/logo.png
     alt: Technical Chaos logo, a terminal window running ./technical-chaos
   actions:
-    - text: Homelab automation
-      link: /homelab-automation/
+    - text: Video guides
+      link: /video-guides/
       icon: right-arrow
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
 
-## Guides
+## Video guides
+
+Every Technical Chaos video has a written guide: the tools from the video, with a basic setup you can try yourself. Newest first.
 
 <CardGrid>
 	<LinkCard
-		title="OPNsense, VLANs and IPS (SE1-EP2)"
+		title="SE1-EP3: T3 Code, Claude and Codex"
+		description="Install T3 Code with Claude and Codex, have them check each other's work, and a basic start with Semaphore, herdr and Wake-on-LAN."
+		href="/video-guides/se1-ep3-t3-code/"
+	/>
+	<LinkCard
+		title="SE1-EP2: OPNsense, VLANs and IPS"
 		description="Isolate smart-home devices with VLANs, write firewall rules, and make Suricata IPS actually block. Step by step, VM or physical."
 		href="/video-guides/se1-ep2-opnsense-vlans/"
 	/>
-	<LinkCard
-		title="Homelab automation"
-		description="AI agents write the changes, Semaphore runs them, a person approves. Terraform state in PostgreSQL, Ansible for the hosts."
-		href="/homelab-automation/"
-	/>
-	<LinkCard
-		title="Adding a node"
-		description="From a Terraform entry to a configured host, with a real run before every merge."
-		href="/homelab-automation/adding-a-node/"
-	/>
-	<LinkCard
-		title="Troubleshooting"
-		description="Every error hit during the setup, with its cause and fix."
-		href="/homelab-automation/troubleshooting/"
-	/>
 </CardGrid>
+
+<LinkButton href="/video-guides/" variant="secondary" icon="right-arrow">Browse all video guides</LinkButton>

@@ -17,10 +17,6 @@ export default defineConfig({
 			plugins: [starlightLinksValidator()],
 			sidebar: [
 				{
-					label: 'Homelab automation',
-					items: [{ autogenerate: { directory: 'homelab-automation' } }],
-				},
-				{
 					label: 'Video guides',
 					items: [{ autogenerate: { directory: 'video-guides' } }],
 				},
