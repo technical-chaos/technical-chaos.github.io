@@ -12,4 +12,4 @@ All addresses and names are **lab or example values** from the video, not from a
 ## Season 1
 
 - [SE1-EP2: OPNsense, isolate your smart home with VLANs, firewall rules and IPS](/video-guides/se1-ep2-opnsense-vlans/) ([video](https://youtu.be/2Xs7TwQtYl4))
-- [SE1-EP3: T3 Code, Claude and Codex in one web app](/video-guides/se1-ep3-t3-code/) (video coming soon)
+- [SE1-EP3: T3 Code, Claude and Codex in one web app](/video-guides/se1-ep3-t3-code/) ([video](https://youtu.be/9y21U-UY9Ak))

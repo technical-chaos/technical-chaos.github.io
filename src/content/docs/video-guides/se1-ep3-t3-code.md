@@ -6,7 +6,11 @@ sidebar:
   order: 3
 ---
 
-Written 17 November 2026, updated 18 November. The video link is added once the episode is live.
+Written 17 November 2026, updated 18 November.
+
+:::tip[Watch the video]
+[Claude + Codex Work Together in T3 Code. I Keep Them in Check.](https://youtu.be/9y21U-UY9Ak) on YouTube.
+:::
 
 This is the written companion to **Technical Chaos SE1-EP3**. It covers the tools from the video with a basic setup for each, and links to each tool's own docs for the rest.
 
